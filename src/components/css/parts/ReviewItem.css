@@ -1,0 +1,52 @@
+.review-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.review-count {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.reviewer-name {
+  font-family: "BPG Arial Caps", sans-serif;
+  color: #2c4251;
+  font-size: 14px;
+  font-weight: bold;
+}
+.review-content {
+  color: rgb(121, 121, 121);
+  font-size: 13px;
+  /* height: 200px; */
+  width: 100%;
+  font-family: "BPG Mrgvlovani", sans-serif;
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
+}
+.review-stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.star-div {
+  background-image: url("../../../assets/img/icons/star-off.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.star-div:hover {
+  background-image: url("../../../assets/img/icons/star-on.svg");
+}
+.star-active {
+  background-image: url("../../../assets/img/icons/star-on.svg");
+}
+.timeout-div {
+  display: none;
+}

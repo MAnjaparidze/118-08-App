@@ -1,0 +1,294 @@
+.calendar {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.calendar .calendar-header {
+  font-family: "BPG Mrgvlovani", sans-serif;
+  border: none!important;
+}
+th.month-title {
+  font-size: 12px!important;
+  font-family: "BPG Mrgvlovani", sans-serif;
+  padding-top: 7px!important;
+}
+.calendar .months-container .month-container {
+  height: 322px!important;
+}
+.calendar table {
+  width: 290px!important;
+  height: 257px!important;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+.calendar .calendar-header table {
+  height: auto!important;
+  width: 92%!important;
+}
+.calendar table td, .calendar table th {
+  font-size: 14px!important;
+  border-radius: 50px!important;
+}
+.calendar table.month td.day .day-content {
+  font-family: "DejaVu Sans Bold", sans-serif!important;
+  border-radius: 50px!important;
+  padding: 0px!important;
+  height: 34px!important;
+  width: 34px!important;
+  align-items: center!important;
+  display: flex!important;
+  justify-content: center!important;
+}
+.calendar table.month th.month-title {
+  border-radius: 0px!important;
+}
+.calendar td.day {
+  background: #f6f6f6;
+  border: 4px solid #f6f6f6!important;
+  margin: 0px!important;
+}
+.calendar table.month th.day-header {
+  font-size: 12px!important;
+  font-family: "BPG Mrgvlovani", sans-serif;
+  padding-top: 5px;
+}
+.calendar-page_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+.calendar-mid_container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  /* height: 310px; */
+  /* background: url("../../../assets/img/calendar-bg.jpg"); */
+  background-color: rgb(246, 246, 246);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.calendar-mid_container .midSection__search-panel .category-title {
+  color: #2c4251;
+}
+.calendar-mid-panel_wrapper {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+.calendar-mid_container .midSection__search-panel {
+  z-index: 10;
+}
+.calendar-free-days-btn,
+.calendar-church-days-btn {
+  width: 100%;
+  height: 36px;
+  padding-top: 2px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: "archyedt-bold";
+  font-weight: bold;
+  border: none;
+  color: rgba(128, 128, 128, 0.788);
+  border-radius: 4px;
+  margin: 2px;
+}
+.calendar-free-days-btn:hover,
+.calendar-church-days-btn:hover,
+.calendar-search-btn:hover,
+.search-field button:hover,
+.calendar-deactivate-search-panel {
+  cursor: pointer;
+}
+
+.calendar-btn-active {
+  background-color: #42b948 !important;
+  color: #ffffff !important;
+  border-radius: 4px !important;
+  margin: 2px !important;
+}
+
+.mid-panel-active {
+  display: flex;
+}
+.mid-panel-inactive {
+  display: none;
+}
+/* #region Calendar Render Section */
+
+.calendar-render-section_container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 600px;
+  align-items: center;
+  width: 100%;
+  background-color: #f6f6f6;
+  padding-top: 70px;
+}
+.calendar-year-select-main,
+.calendar-select-options_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  position: relative;
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+  background-color: #f6f6f6;
+  color: rgb(66, 185, 71);
+  z-index: 2;
+  font-family: "BPG Arial Caps", sans-serif;
+}
+.calendar-year-select-main img {
+  position: absolute;
+  right: 65px;
+  top: 17px;
+}
+.calendar-year-select_wrapper {
+  position: relative;
+}
+.calendar-year-select-main:hover,
+.calendar-year-select-main img:hover {
+  cursor: pointer;
+}
+.calendar-select-options_wrapper {
+  display: none;
+  flex-direction: column;
+  height: auto;
+  position: absolute;
+  top: 40px;
+}
+.calendar-year-select-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: bolder;
+  color: grey;
+  width: 100%;
+  transition: 0.3s;
+}
+.calendar-year-select-options:hover {
+  cursor: pointer;
+  background-color: rgb(66, 185, 71);
+  color: #fff;
+}
+.options-visible {
+  display: flex;
+}
+/* #endregion Calendar Render Section */
+
+/* #region React-Calender */
+.calendar-panel-items_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.react-calendar_wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.calendar-day-wrapper {
+  position: relative;
+}
+.calendar-event {
+  background-color: rgba(255, 0, 0, 0.158);
+  width: 24px !important;
+  height: 24px;
+  border-radius: 100px !important;
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+}
+.calendar-panel-events_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 80px;
+}
+.react-calendar {
+  border: none;
+  padding: 20px;
+  width: 20%;
+}
+.calendar-panel-events_wrapper {
+  width: 20%;
+  margin-top: 30px;
+  border-right: 1px solid rgba(128, 128, 128, 0.473);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.473);
+}
+.last-panel-event {
+  border-right: none;
+}
+.calendar-panel-month-label {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 0.726);
+  font-family: "BPG Arial Caps", sans-serif;
+}
+.calendar-panel-event {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+.calendar-panel-event-day {
+  color: rgb(232, 113, 87);
+  font-weight: bolder;
+  font-family: "BPG Mrgvlovani", sans-serif;
+  font-size: 12px;
+}
+.calendar-panel-event-description {
+  margin-left: 12px;
+  font-size: 13px;
+  font-family: "DejaVu Sans Bold", sans-serif;
+  color: #2c4251;
+}
+.react-calendar-slider-container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+.react-calendar-slider-container .slick-slide {
+  width: 3.57% !important;
+}
+.calendar-page_calendar-container {
+  width: 66%;
+  margin: 0 auto;
+  background-color: rgb(246, 246, 246);
+}
+.react-calendar__navigation .react-calendar__navigation__arrow {
+  display: none;
+}
+.react-calendar__navigation .react-calendar__navigation__label {
+  background-color: transparent!important;
+}
+.slick-prev::before,
+.slick-next::before {
+  color: rgb(66, 185, 71) !important;
+  width: 25px;
+}
+.calendar-render-section_container .slick-list {
+  height: 300px;
+  background-color: #fff;
+}
+/* #endregion React-Calender */
+
+

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18.625" height="20.372" viewBox="0 0 18.625 20.372">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_1059" data-name="Path 1059" d="M0-850H16.572v18H0Z" transform="translate(0 850)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_4240" data-name="Group 4240" transform="translate(-354.006 -452.875)">
+    <g id="Group_3542" data-name="Group 3542" transform="translate(3865 -9375.871)">
+      <g id="Group_1243" data-name="Group 1243" transform="translate(-3510 9830)">
+        <g id="Group_1242" data-name="Group 1242" clip-path="url(#clip-path)">
+          <g id="Group_1241" data-name="Group 1241" transform="translate(0 0)">
+            <path id="Path_1058" data-name="Path 1058" d="M-403.357-777.037v-8.483l3.241-1.573v2.219a.457.457,0,0,0,.456.456.457.457,0,0,0,.456-.456v-2.663l2.773-1.345v8.483Zm-7.815-11.83,6.9,3.347v8.483l-6.9-3.347Zm7.359,2.553-6.778-3.286,3.237-1.569,6.778,3.286Zm0-6.572,6.778,3.286-2.5,1.212-6.778-3.286Zm8.293,3.282a.471.471,0,0,0-.046-.2.44.44,0,0,0-.308-.243l-7.739-3.753a.459.459,0,0,0-.4,0l-7.815,3.788a.458.458,0,0,0-.258.4v9.524a.453.453,0,0,0,.258.41l7.815,3.788s0,0,.008,0a.135.135,0,0,1,.034.015s.008,0,.015,0l.034.011s.008,0,.011,0,.027,0,.038.008h.011c.015,0,.034,0,.049,0a.217.217,0,0,0,.049,0h.011a.135.135,0,0,0,.038-.008s.008,0,.011,0l.034-.011s.008,0,.015,0a.135.135,0,0,0,.034-.015s0,0,.008,0l7.837-3.8a.459.459,0,0,0,.258-.41v-9.486c-.008,0-.008-.008-.008-.011" transform="translate(412.083 793.848)"/>
+          </g>
+        </g>
+      </g>
+      <path id="Path_1062" data-name="Path 1062" d="M-3501.714,9848l8.345-4.16v-9.879l-8.345-4.09-8.28,4.492v9.477Z" fill="none" stroke="#2c4251" stroke-width="2"/>
+      <line id="Line_271" data-name="Line 271" y2="11" transform="translate(-3501.5 9837.5)" fill="none" stroke="#2c4251" stroke-width="2"/>
+      <line id="Line_272" data-name="Line 272" y1="4" x2="8" transform="translate(-3501.5 9834.5)" fill="none" stroke="#2c4251" stroke-width="2"/>
+      <line id="Line_273" data-name="Line 273" x1="8" y1="4" transform="translate(-3509.5 9834.5)" fill="none" stroke="#2c4251" stroke-width="2"/>
+      <line id="Line_274" data-name="Line 274" x1="9" y1="5" transform="translate(-3505.5 9831.5)" fill="none" stroke="#2c4251" stroke-width="2"/>
+      <g id="Rectangle_853" data-name="Rectangle 853" transform="translate(-3496.5 9835.5) rotate(90)" fill="#fff" stroke="#2c4251" stroke-width="1">
+        <rect width="5" height="2" rx="1" stroke="none"/>
+        <rect x="0.5" y="0.5" width="4" height="1" rx="0.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

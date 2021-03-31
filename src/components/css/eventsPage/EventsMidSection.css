@@ -1,0 +1,181 @@
+.events-mid-section_container {
+    height: 462px;
+    position: relative;
+    /* background-image: url('../../../assets/img/bg-afisha.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    background-color: rgb(246, 246, 246);
+}
+.search-field--active {
+    width: 100% !important;
+    transition: 0.3s;
+}
+.events-mid-section_container .search-field .live-search-wrapper,
+.event-category-mid_container .search-field .live-search-wrapper {
+    top: 45px;
+}
+.events-mid-section_container .search-field .search-btn,
+.event-category-mid_container .search-field .search-btn{
+    margin-left: 0px;
+    padding-top: 5px;
+    outline: none;
+}
+.events-mid-section_container .search-field .close-btn,
+.event-category-mid_container .search-field .close-btn {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.category-title {
+    font-size: 26px;
+    color: #fff;
+}
+.currency-page_container .category-title {
+    font-size: 26px;
+    color: rgb(46, 46, 46);
+}
+.events-page_container .mid__navigation__item__wrapper .more {
+    width: 10px;
+    height: 6px;
+}
+.events-navigation-more-btn {
+    width: 100%;
+    height: 45px;
+}
+.events-page_container .category-title {
+    color: rgb(73, 81, 111);
+}
+.events-page_container .midSection__search-panel {
+    margin-bottom: 0px;
+}
+.currency-page_container .midSection__search-panel {
+    align-items: flex-start;
+}
+.events-mid-section_container .midSection__search-panel * {
+    z-index: 3;
+}
+.events-mid-section_container .dimmed-overlay {
+    background-color: rgba(0, 0, 0, 0.47);
+}
+.events-nav_container * {
+    z-index: 2;
+}
+.events-nav_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.events-more-nav_wrapper {
+    position: absolute;
+    width: 90px;
+    top: 132px;
+    right: 50%;
+    transform: translateX(46px);
+    background-color: #f6f6f6;
+    border-radius: 0 0 100px 100px;
+    background-color: #f6f6f6;
+    z-index: 201;
+    list-style: none;
+}
+.events-more-nav {
+    width: 100%;
+    display: flex;
+    color: #333;
+    border: 1px solid rgba(73, 81, 111, 0.1);
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 0px;
+    height: 45px;
+    transition: 300ms;
+    border-radius: 0 0 100px 100px;
+    background-color: #fff;
+    border-top: none;
+    z-index: 201;
+}
+.events-more-nav span {
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "BPG Mrgvlovani", sans-serif;
+}
+.events-more-nav img {
+    position: relative;
+    top: -5px;
+}
+.events-more-nav:hover {
+    background-color: #42B947;
+    cursor: pointer;
+    color: #fff;
+    transition: 300ms;
+}
+.events_additional-nav {
+    display: none;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 12px 12px 12px 12px;
+    box-sizing: border-box;
+    width: 920px;
+    height: auto;
+    top: 116px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    z-index: 4;
+    border-top: none;
+    box-shadow: 0px 15px 18px 0px rgba(128, 128, 128, 0.377);
+    border-radius: 4px;
+}
+
+.events_additional-nav:before,
+.events_additional-nav:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-width: 7px 8px;
+  border-style: solid;
+  border-color: transparent;
+  z-index: 1001;
+}
+.events_additional-nav:after {
+  top: -14px;
+  right: 122px;
+  border-bottom-color: #fff;
+}
+
+.events-nav_container .navigation__list {
+    margin-bottom: 0 !important;
+}
+.events-additional-nav_item {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "BPG Arial Caps", sans-serif;
+}
+.events-additional-nav_item div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    color: rgb(46, 46, 46);
+    border: 1px solid rgba(73, 81, 111, 0.1);
+    transition: 300ms;
+    border-radius: 4px;
+}
+.events-additional-nav_item div:hover {
+    cursor: pointer;
+    color: #42b947;
+    border: 1px solid rgba(66, 185, 71, 0.24);
+    background-color: rgba(4, 196, 43, 0.11);
+}
+.grid {
+    display: grid !important;
+}

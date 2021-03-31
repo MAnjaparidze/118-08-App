@@ -1,0 +1,37 @@
+.submit-review-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.review-count-label {
+  font-family: "BPG Arial Caps", sans-serif;
+  color: #2c4251;
+  font-size: 14px;
+  font-weight: bold;
+}
+.user-review {
+  height: 140px;
+  width: calc(100% - 20px);
+  margin: 10px 0px 0px 0px;
+  padding: 10px;
+  border: none;
+  resize: none;
+  font-family: "BPG Arial Caps", sans-serif;
+  font-weight: bold;
+  color: #2c4251;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+.submit-user-review {
+  height: 40px;
+  width: 100%;
+  margin-top: 16px;
+  background-color: #49516f;
+  font-family: "BPG Arial Caps", sans-serif;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}

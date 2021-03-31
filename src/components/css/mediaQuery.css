@@ -1,0 +1,390 @@
+@media (max-width: 1230px) {
+
+    .main__header__menu {
+        width: 16pt;
+        height: 16pt;
+        margin-left: 20px;
+        margin-right: auto;
+    }
+
+    .main__header__menu__horizontal {
+        width: 100%;
+        height: 2px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: grey;
+    }
+
+    .footer-content__wrapper{
+        padding: 60px 15px;
+    }
+
+    .search-field {
+        width: 700px;
+    }
+
+    .mid__navigation__list .mid__navigation__item__wrapper {
+        width: 45%;
+    }
+    .events-navigation-more-btn {
+        display: flex;
+        flex-direction: row;
+        width: 92% !important;
+        height: 45px !important;
+        padding: 0 !important;
+        margin: 5px 5px 5px 5px;
+        position: relative;
+    }
+    .events-navigation-more-btn .more {
+        position: absolute;
+        right: 15px;
+        transform: rotate(-90deg);
+        transition: 0.3s;
+        width: 10pt;
+        height: 6pt;
+    }
+    .events-navigation-more-btn .more-active {
+        transform: rotate(0deg);
+        transition: 0.3s;
+    }
+    .mid__navigation__item__other {
+        width: 92% !important;
+        height: 34pt !important;
+    }
+    .mid__navigation__item__other a{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0 !important;
+        position: relative;
+    }
+    .mid__navigation__item__other .more {
+        width: 10px;
+        height: 6px;
+        margin-bottom: 3px;
+        position: absolute;
+        right: 10px;
+    }
+
+    .organization-render__wrapper {
+        width: 85%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .events-top-movies_wrapper, .events-top-theaters_wrapper {
+        width: 960px;
+    }
+
+    .events-event_wrapper {
+        width: 33.33%;
+    }
+    .event-filter-cinema-item {
+        height: min-content;
+        padding: 10px 5px;
+    }
+
+    .events_additional-nav {
+        width: 92%;
+    }
+
+    .events_additional-nav::after {
+        display: none;
+    }
+
+    .events_additional-nav {
+        top: 100%;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .search-field {
+        width: 500px;
+    }
+
+    .search-field input {
+        padding: 0px 10px 0 10px;
+    }
+
+    .midSection__container {
+        height: auto;
+    }
+
+    .mid__navigation__list {
+        justify-content: center;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    
+    .mid-section__additional-nav {
+        top: 100%;
+    }
+
+    .mid-section__additional-nav:before, .mid-section__additional-nav:after {
+        display: none;
+    }
+
+    .organization-render__wrapper {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .events-top-movies_wrapper, .events-top-theaters_wrapper {
+        width: 730px;
+    }
+    
+    .events-top-items_wrapper {
+        width: 730px;
+    }
+
+    .currency-render-section_wrapper {
+        box-sizing: border-box;
+        width: 100%;
+        /* padding: 0 15px; */
+    }
+
+    .organization-page__similar-orgs__wrapper {
+        width: 100%;
+        height: 100px;
+        padding: 0 15px;
+        margin-bottom: 100px;
+    }
+
+    .organization-page__info__wrapper {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .organization-page__info__blocks {
+        display: block;
+    }
+
+    .organization-page__info__content {
+        width: 100%;
+    }
+
+    .event-page-header_wrapper {
+        display: block;
+        max-height: max-content;
+    }
+
+    .event-page-render_left {
+        width: 100%;
+    }
+
+    .event-page-render_right {
+        width: 100%;
+    }
+
+    .event-page-render_wrapper {
+        width: 730px;
+    }
+    
+    .category-event-render_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .midSection__search-panel {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .search-field {
+        position: absolute;
+        right: 0;
+        width: 15%;
+        text-align: center;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        transition: 0.3s;
+    }
+    .search-field-active {
+        width: 100%;
+        transition: 0.3s;
+    }
+    .search-field::after {
+        display: none;
+    }
+
+    .search-field-container {
+        /* margin-bottom: 10px; */
+    }
+    .search-field-input {
+        position: absolute;
+        left: 50px;
+    }
+    .search-field .submit {
+        position: absolute;
+        left: 0;
+        outline: none;
+        margin-left: 10px;
+        padding-top: 4px;
+    }
+    .search-field .filter {
+        position: absolute;
+        right: 0;
+        outline: none;
+    }
+    .live-search-item-info .live-search-item-name {
+        font-size: 15px;
+    }
+    .organization-render__wrapper {
+        grid-template-columns: 100%;
+    }
+    .search-field-additional {
+        position: relative;
+        /* bottom: -75px; */
+        /* right: 10px; */
+    }
+    .search-field-additional .horizontal-div {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-content__wrapper {
+        display: block;
+        text-align: center;
+    }
+
+    .footer-info__wrapper {
+        width: 100%;
+        grid-template-columns: 100%;
+    }
+
+    .footer-download-app {
+        width: 100%;
+        text-align: center;
+    }
+
+    .events-top-items_wrapper {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0 10px;
+    }
+    
+    .events-top-items_wrapper {
+        display: block;
+    }
+    
+    .events-event_wrapper {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .events-top-movies_wrapper {
+        width: 100%;
+    }
+
+    .events-top-theaters_wrapper {
+        width: 100%;
+    }
+
+    .events-mid-section_container {
+        height: auto;
+    }
+
+    .event-category-mid_container {
+        height: auto;
+    }
+
+    .event-category-mid_container .search-field {
+        width: 15%;
+    }
+
+    .category-event-render_wrapper {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .additional-nav-row {
+        display: block;
+    }
+
+    .events_additional-nav {
+        top: 100%;
+        grid-template-columns: 100%;
+    }
+
+    .calendar-page_calendar-container {
+        width: 100%;
+    }
+
+    .currency-render-section_container {
+        overflow-x: auto;
+    }
+    
+    .currency-render-section_wrapper {
+        width: 100%;
+    }
+
+    .currency-render-section_container {
+        align-items: inherit;
+    }
+
+    .to-dropdown-wrapper {
+        width: 280px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+
+    .from-dropdown-wrapper {
+        width: 280px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+
+    .organization-page__info__wrapper {
+        display: block;
+    }
+
+    .organization-page__profile {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .organizaion-profile-location__wrapper {
+        width: 100%;
+    }
+
+    .organization-page__similar-orgs {
+        margin-bottom: 100px;
+    }
+
+    .event-page-render_wrapper {
+        width: 100%;
+    }
+
+    .event-ticket_container {
+        grid-template-columns: 100%;
+    }
+
+    .timeline-date {
+        text-align: center;
+    }
+
+    .additional-info-time {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .event-date-additional-info {
+        display: block;
+    }
+
+    .event-page-header_wrapper {
+        width: 94%;
+        margin-top: 62px;
+    }
+}
+
+@media (max-width: 576px) {}
+ 

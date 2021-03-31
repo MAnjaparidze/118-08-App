@@ -1,0 +1,52 @@
+.day {
+    /* position: relative; */
+    cursor: pointer;
+}
+.month-container {
+    position: relative;
+}
+.calendar {
+    overflow: initial!important;
+}   
+.event-tooltip-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: calc(50% - 85px);
+    width: 170px;
+    min-height: 50px;
+    border-radius: 4px;
+    background-color: rgba(73, 81, 111, 0.89);
+    z-index: 999;
+    color: #FFF;
+    padding: 5px;
+    font-family: "BPG Mrgvlovani", sans-serif;
+}
+/* .event-tooltip-content:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-width: 7px 8px;
+  border-style: solid;
+  border-color: transparent;
+  z-index: 1001;
+}
+.event-tooltip-content:after {
+    top: 60px;
+    right: 128px;
+    border-bottom-color: rgba(73, 81, 111, 0.89);
+    transform: rotate(180deg);
+} */
+.event-name,
+.event-details {
+    /* margin-top: 5px;
+    margin-bottom: 5px; */
+}
+.event-name {
+    /* border-bottom: 1px solid #bfbfbf; */
+    /* padding-bottom: 10px; */
+}
